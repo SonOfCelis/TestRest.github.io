@@ -1,0 +1,241 @@
+
+@media screen and (max-width: 767px) { 
+
+  /* Seccion de Navbar */
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+    
+  }
+
+
+
+  .ContenedorMain {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    height: max-content;
+    font-size: 1.5rem;
+  }
+
+  /* Inicio */
+
+  .main img {
+  
+    border: none;
+    width: 175%;
+    height: 80%;
+  }
+
+  .container1 {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #rr{
+    visibility: hidden ;
+    justify-content: center;
+  }
+ 
+  #wd{
+    visibility: visible;
+    padding-right: 50px;
+    
+  }
+  
+  #fv{
+    visibility: hidden;
+  }
+
+ .text01 {
+    margin-left: auto;
+    font-size: 1rem;
+  }
+
+  .dynamic-txt {
+    list-style-type: none;
+    padding-left: 20px;
+    animation: none;
+  }
+
+  .static-txt {
+    margin-left: 10px;
+    font-size: 2.5rem;
+    visibility: hidden;
+  }
+  
+/* Seccion Sobre Mi */
+
+
+.about {
+  padding: 0px;
+  margin: 0px;
+  float: none;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  height: max-content;
+  font-size: 1.5rem;
+}
+
+#Sobremi{
+  font-size: 1.5rem;
+  color: #3d0e61;
+}
+
+  .hide {
+    text-align: justify;
+    font-size: 0.75rem;
+  }
+  .text1 {
+    text-align: justify;
+    font-size: 0.75rem;
+  }
+
+
+  .aboutimg{
+    padding: 30px;
+    border: none;
+    width: 80%;
+    height: 80%;
+  }
+
+  /* <!-- Esta es la seccion de Portafolio y las cards--> */
+
+  .portfolio {
+    width: 100vw;
+    background: #3d0e61;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .portfolio-heading{
+    padding: 48px;
+    font-size: 1rem;
+  }
+
+
+  /* Seccion de Contacto*/
+  .contact-section h2{
+    font-size: 1.5rem;
+    color: #3d0e61
+  }
+  
+  .container-contact{
+    width: 100vw;
+  display: flex;
+  flex-direction:row;
+  justify-content:justify;
+  
+  }
+
+  .contact-section img {
+    width: 400px;
+    height: 400px;
+  
+  }
+
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid purple;
+    color: purple;
+  }
+
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3d0e61 ;
+    color: #191c32;
+    
+  }
+
+
+
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 390px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+
+  .main {
+    padding: 50px;
+    float: none;
+    display:contents;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+
+  
+  }
+
+  .main img {
+    padding: 50px;
+    border: none;
+    width: 150px;
+    height: 150px;
+  }
+
+  .container1 {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+
+  .dynamic-txt {
+    list-style-type: none;
+    padding-left: 50%;
+    font-size: small;
+    margin: 10px;
+  }
+
+  .text01 {
+    margin-left: 30px;
+  }
+
+  .static-txt {
+    margin-left: 10px;
+  }
+
+  .hide {
+    text-align: justify;
+  }
+  .text1 {
+    text-align: justify;
+  }
+};
